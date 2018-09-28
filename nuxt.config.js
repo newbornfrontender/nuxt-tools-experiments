@@ -16,6 +16,10 @@ export default {
     linkExactActiveClass: 'link-exact',
   },
 
+  loading: {
+    color: 'black',
+  },
+
   build: {
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
@@ -27,9 +31,5 @@ export default {
         });
       };
     },
-  },
-
-  loading: {
-    color: 'black',
   },
 };
