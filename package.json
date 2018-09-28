@@ -15,5 +15,12 @@
     "stylelint:fix": "yarn stylelint --fix",
     "eslint": "eslint --ext js,jsx,vue .",
     "eslint:fix": "yarn eslint --fix"
-  }
+  },
+  "keywords": [
+    "nuxt",
+    "eslint",
+    "stylelint",
+    "jest",
+    "prettier"
+  ]
 }
