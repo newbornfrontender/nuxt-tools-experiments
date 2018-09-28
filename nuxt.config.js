@@ -1,5 +1,8 @@
 export default {
   head: {
+    htmlAttrs: {
+      lang: 'ru',
+    },
     meta: [{
       charset: 'utf-8',
     }, {
@@ -19,6 +22,25 @@ export default {
   loading: {
     color: 'black',
   },
+
+  modules: [
+    ['@nuxtjs/pwa', {
+      meta: {
+        name: 'META_NAME',
+        author: 'META_AUTHOR',
+        description: false,
+        ogType: false,
+        ogSiteName: false,
+        ogTitle: false,
+      },
+      manifest: {
+        name: 'MANIFEST_NAME',
+        short_name: 'MANIFEST_SHORT_NAME',
+        lang: 'ru',
+      },
+    }],
+    '@nuxtjs/axios',
+  ],
 
   build: {
     extend (config, ctx) {
