@@ -1,0 +1,9 @@
+{
+  "name": "nuxt-tools-experiments",
+  "version": "1.0.0",
+  "description": "Репозиторий для тестов с Nuxt",
+  "repository": "https://github.com/newbornfrontender/nuxt-tools-experiments.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
