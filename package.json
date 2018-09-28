@@ -5,5 +5,15 @@
   "repository": "https://github.com/newbornfrontender/nuxt-tools-experiments.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "stylelint": "stylelint **/*.{css,vue}",
+    "stylelint:fix": "yarn stylelint --fix",
+    "eslint": "eslint --ext js,jsx,vue .",
+    "eslint:fix": "yarn eslint --fix"
+  }
 }
