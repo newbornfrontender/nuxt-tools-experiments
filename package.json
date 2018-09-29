@@ -12,8 +12,10 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "stylelint": "stylelint **/*.{css,vue}",
+    "stylelint:check": "stylelint-config-prettier-check",
     "stylelint:fix": "yarn stylelint --fix",
     "eslint": "eslint --ext js,jsx,vue .",
+    "eslint:check": "eslint --print-config . | eslint-config-prettier-check",
     "eslint:fix": "yarn eslint --fix"
   },
   "keywords": [
@@ -32,9 +34,11 @@
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
     "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0-beta.3",
     "stylelint": "^9.6.0",
+    "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0"
   }
 }
