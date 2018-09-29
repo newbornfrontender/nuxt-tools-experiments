@@ -19,6 +19,8 @@ export default {
     linkExactActiveClass: 'link-exact',
   },
 
+  css: ['~/assets/styles.css'],
+
   loading: {
     color: 'black',
   },
@@ -33,12 +35,14 @@ export default {
         ogSiteName: false,
         ogTitle: false,
       },
+
       manifest: {
         name: 'Приложение',
         short_name: 'Приложение',
         lang: 'ru',
       },
     }],
+
     '@nuxtjs/axios',
   ],
 
