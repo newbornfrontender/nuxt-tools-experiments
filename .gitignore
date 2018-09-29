@@ -2,4 +2,5 @@
 /.nuxt
 /dist
 
+/static/sw.*
 /*.log
