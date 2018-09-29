@@ -26,16 +26,16 @@ export default {
   modules: [
     ['@nuxtjs/pwa', {
       meta: {
-        name: 'META_NAME',
-        author: 'META_AUTHOR',
+        name: 'Приложение',
+        author: 'Infant Frontender',
         description: false,
         ogType: false,
         ogSiteName: false,
         ogTitle: false,
       },
       manifest: {
-        name: 'MANIFEST_NAME',
-        short_name: 'MANIFEST_SHORT_NAME',
+        name: 'Приложение',
+        short_name: 'Приложение',
         lang: 'ru',
       },
     }],
