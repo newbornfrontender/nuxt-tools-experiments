@@ -2,4 +2,4 @@
 /.nuxt
 /dist
 
-*.log
+/*.log
