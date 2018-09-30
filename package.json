@@ -19,7 +19,8 @@
     "eslint:fix": "yarn eslint --fix",
     "prettier": "prettier --no-editorconfig **/*.{css,js,jsx,vue} !.nuxt/** !dist/**",
     "prettier:list": "yarn prettier --list-different",
-    "prettier:write": "yarn prettier --write"
+    "prettier:write": "yarn prettier --write",
+    "test:unit": "jest"
   },
   "keywords": [
     "nuxt",
