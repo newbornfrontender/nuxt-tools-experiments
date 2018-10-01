@@ -6,5 +6,7 @@ describe('Страницы', () => {
     const wrapper = shallowMount(Component);
 
     expect(wrapper.find('h1').text()).toBe('Главная страница');
+
+    expect(wrapper.element).toMatchSnapshot();
   });
 });
