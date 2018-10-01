@@ -20,7 +20,8 @@
     "prettier": "prettier --no-editorconfig **/*.{css,js,jsx,vue} !static/sw.* !.nuxt/** !dist/**",
     "prettier:list": "yarn prettier --list-different",
     "prettier:write": "yarn prettier --write",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "test:unit:snapshot": "jest --updateSnapshot"
   },
   "keywords": [
     "nuxt",
