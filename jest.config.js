@@ -6,7 +6,7 @@ module.exports = {
   ],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '.+\\.css$': 'jest-transform-stub',
+    '.+\\.(css|svg|png|jpe?g|ttf|woff2?)$': 'jest-transform-stub',
     '^.+\\.vue$': 'vue-jest',
   },
   moduleNameMapper: {
